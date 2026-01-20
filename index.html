@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller mecànic a Sarrià | Serveis d’Automoció Berma</title>
+  <meta name="description" content="Taller mecànic de confiança a Sarrià, Barcelona. Especialistes en SAAB, AUDI i VOLKSWAGEN amb més de 25 anys d’experiència.">
+  <style>
+    :root {
+      --primary: #1f2933;
+      --secondary: #2563eb;
+      --light: #f9fafb;
+      --dark: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--primary);
+      background-color: var(--light);
+    }
+
+    header, section, footer {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--secondary);
+      color: #fff;
+      padding: 0.75rem 1.25rem;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background: var(--secondary);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .placeholder {
+      background: #e5e7eb;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 4px;
+      color: #6b7280;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Més de 25 anys cuidant el teu vehicle a Sarrià</h1>
+  <p>Especialistes en manteniment i reparació de <strong>SAAB, AUDI i VOLKSWAGEN</strong>. Servei professional, proper i de confiança a Barcelona.</p>
+  <p>
+    📍 Carrer Rafael Batlle, 14, Baixos – 08017 Barcelona<br>
+    📞 934 09 05 83 · 932 03 19 92
+  </p>
+  <a href="#contacte" class="btn">Sol·licitar cita</a>
+  <a href="tel:934090583" class="btn">Trucar ara</a>
+</header>
+
+<section id="contacte">
+  <h2>Contacte ràpid</h2>
+  <form>
+    <input type="text" placeholder="Nom">
+    <input type="tel" placeholder="Telèfon">
+    <textarea rows="4" placeholder="Problema o consulta del vehicle"></textarea>
+    <button type="submit">Enviar sol·licitud</button>
+  </form>
+</section>
+
+<section id="serveis">
+  <h2>Serveis de taller mecànic</h2>
+  <div class="grid grid-3">
+    <div>
+      <h3>Manteniment general</h3>
+      <p>Revisions periòdiques per garantir el bon funcionament i la seguretat del vehicle.</p>
+    </div>
+    <div>
+      <h3>Reparacions mecàniques</h3>
+      <p>Solució de problemes mecànics amb diagnosi clara i reparacions eficients.</p>
+    </div>
+    <div>
+      <h3>Diagnosis electrònica</h3>
+      <p>Detecció precisa d’avaries amb equips especialitzats.</p>
+    </div>
+    <div>
+      <h3>Frens i suspensió</h3>
+      <p>Revisió i reparació per a una conducció segura.</p>
+    </div>
+    <div>
+      <h3>Motor i transmissió</h3>
+      <p>Servei professional per a components clau del vehicle.</p>
+    </div>
+    <div>
+      <h3>Especialistes en marques</h3>
+      <p>Experiència avançada en SAAB, AUDI i VOLKSWAGEN.</p>
+    </div>
+  </div>
+</section>
+
+<section id="per-que">
+  <h2>Per què escollir-nos</h2>
+  <div class="grid grid-2">
+    <div>
+      <p><strong>Experiència contrastada:</strong> més de 25 anys al barri de Sarrià.</p>
+      <p><strong>Tècnics certificats:</strong> “Tècnic Or” de General Motors i “Saab Master Technician”.</p>
+      <p><strong>Tracte proper:</strong> atenció personalitzada i honesta.</p>
+    </div>
+    <div>
+      <p><strong>Seguretat i qualitat:</strong> treballem amb rigor i responsabilitat.</p>
+      <p><strong>Transparència:</strong> expliquem cada reparació de manera clara.</p>
+      <p><strong>Reputació local:</strong> taller de confiança a Barcelona.</p>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <h2>Galeria del taller</h2>
+  <div class="grid grid-3">
+    <div class="placeholder">Imatge del taller</div>
+    <div class="placeholder">Zona de treball</div>
+    <div class="placeholder">Reparacions en procés</div>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Preguntes freqüents</h2>
+  <p><strong>Cal demanar cita prèvia?</strong><br>Sí, recomanem demanar cita per garantir una atenció ràpida.</p>
+  <p><strong>Oferiu garantia?</strong><br>Totes les reparacions tenen garantia segons la normativa vigent.</p>
+  <p><strong>Només treballeu amb SAAB, AUDI i VOLKSWAGEN?</strong><br>Estem especialitzats en aquestes marques, però també fem manteniment general.</p>
+  <p><strong>Puc demanar pressupost sense compromís?</strong><br>Sí, contacta amb nosaltres i t’informarem sense cap obligació.</p>
+</section>
+
+<section id="cta-final">
+  <h2>El teu taller mecànic de confiança a Barcelona</h2>
+  <p>Si busques professionalitat, experiència i un servei honest, a <strong>Serveis d’Automoció Berma</strong> estem preparats per ajudar-te.</p>
+  <a href="#contacte" class="btn">Demana la teva cita avui</a>
+</section>
+
+<footer>
+  <p>© Serveis d’Automoció Berma SL · CIF B66666801 · Carrer Rafael Batlle, 14, 08017 Barcelona</p>
+</footer>
+
+</body>
+</html>
